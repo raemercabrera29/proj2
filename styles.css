@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('ww.webp'); 
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.15); 
+    width: 380px; 
+     padding: 35px; 
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    text-align: center;
+    backdrop-filter: blur(10px); 
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 4px solid #0046AD; 
+  }
+  
+  h1 {
+    margin: 15px 0 5px;
+    color: #ffffff;
+  }
+  
+  .title {
+    color: #FFD700; 
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card p {
+    color: #f0f0f0;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0046AD;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #002f73; 
+  }
+
+  .contact {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0046AD; 
+    padding: 12px 25px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 70, 173, 0.3);
+    letter-spacing: 0.5px;
+  }
+  
+  .contact:hover {
+    background-color: #FFD700; 
+    color: #000000;
+    transform: scale(1.05);
+  }
+  
+  
